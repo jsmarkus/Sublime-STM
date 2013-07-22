@@ -1,0 +1,22 @@
+{
+    "fileTypes": [
+        "stm"
+    ],
+    "name": "Simple Translation Memory",
+    "patterns": [
+        {
+            "name": "comment.stm",
+            "match": "^@.*$"
+        },
+        {
+            "name": "string.stm",
+            "match": "^#.*$"
+        },
+        {
+            "name": "invalid.illegal.stm",
+            "match": "^![^\n]*"
+        }
+    ],
+    "scopeName": "text.stm",
+    "uuid": "ca03e751-04ef-4330-9a6b-9b99aae1c417"
+}
